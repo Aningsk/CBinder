@@ -3,10 +3,20 @@
 *.ko
 *.obj
 *.elf
+*.o.cmd
+*.ko.cmd
+*.mod.c
+
+Module.symvers
+modules.order
+
+.tmp_versions/
 
 # Precompiled Headers
 *.gch
 *.pch
+
+deps.h
 
 # Libraries
 *.lib
@@ -28,9 +38,15 @@
 *.x86_64
 *.hex
 
+servicemanager
+binderAddInts
+
 # Debug files
 *.dSYM/
 *.su
 
 .DS_Store
 .vscode/
+
+*.swp
+tags
