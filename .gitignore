@@ -39,7 +39,7 @@ deps.h
 *.hex
 
 servicemanager
-binderAddInts
+cbinder_add_ints
 
 # Debug files
 *.dSYM/
